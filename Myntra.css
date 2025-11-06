@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+    
+    justify-content: space-between;
+    align-items: center;
+   border-bottom: 1px solid#b6b1b1;
+   position: fixed;
+   width: 100%;
+    
+}
+.myntra_logo{
+    width: 56px;
+    
+}
+.logo{
+    margin-left: 4%;
+   
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+#super{
+    color: #ff3f6c;
+    top: -.4rem;
+    font-size: 100%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    text-transform: uppercase;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282C3F;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 22px 0;
+   border-bottom: 4px solid #ffffff; 
+}
+
+.nav_bar a:hover{
+    border-bottom: 4px solid #f54e77;
+}
+.Search_bar{
+    display: inline-flex;
+     text-decoration: none;
+    
+    
+}
+.search_icon{
+    height: 26px;
+    width: 40px;
+    text-align: center;
+    background-color: #F5F5F6;
+    padding: 8px 0px 2px;
+    border: 2px solid #F5F5F6;
+    border-radius: 4px 0 0 4px;
+}
+.search_input{
+    height: 38px;
+    width: 40% ;
+    display: flex;
+    background-color: #F5F5F6;
+    border: 1px solid #F5F5F6;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+    min-width: 325px;
+    
+    
+}
+#input{
+    flex-grow: 1;
+    text-align: left;
+    color: #696e79;
+    height: 24px;
+    padding: 5px 10px 6px;
+    box-sizing: content-box;  
+    border: 0;
+
+}
+.icon{
+    height: 21px;
+    color: #282c3f;
+    font-weight: 300;
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_Container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer{
+    width: 100%;
+    
+}
+.offer_banner{
+    width: 100%;
+    padding: 5px;
+    
+}
+.banner{
+    display: flex;
+    width: 100%;
+    
+}
+.banner_image_1{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.banner_image_2{
+    width: 50%;
+    justify-content: end;
+}
+.first{
+    width: 92%;
+}
+.second{
+    width: 92%;
+}
+.brand{
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+}
+.Fashion{
+    width: 47%;
+}
+.Ethnic{
+    width: 47%;
+}
+.discount{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.bank{
+    width: 90%;
+}
+.ads{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.ads_banner{
+    width: 92%;
+}
+.blank{
+    width: 100%;
+    height: 70px;
+}
+.cotagory_item{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px 15px 0px;
+   
+}
+.com{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pic{
+    width: auto;
+    height: auto;
+}
